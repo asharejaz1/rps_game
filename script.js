@@ -60,7 +60,7 @@ function getComputerChoice() {
     if (score == 1) {
       result.innerText = "You Win!"
     }
-    plyscore.innerText = `${Your Score : Number(plyscore.innerText) + score}`
+    plyscore.innerText = `${Number(plyscore.innerText) + score}`
     hands.innerText = `You : ${playerChoice}   vs   Bot : ${computerChoice}`
   }
   
